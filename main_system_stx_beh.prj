@@ -1,0 +1,8 @@
+vhdl isim_temp "register.vhd"
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "memory.vhd"
+vhdl isim_temp "driver.vhd"
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "controller.vhd"
+vhdl isim_temp "alu.vhd"
+vhdl isim_temp "CPU_main.vhd"

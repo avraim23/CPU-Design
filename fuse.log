@@ -1,0 +1,36 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/CPU_Design/main_system_isim_beh.exe -prj /home/ise/CPU_Design/main_system_beh.prj work.main_system 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/CPU_Design/register.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/mux.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/memory.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/driver.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/counter.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/controller.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/alu.vhd" into library work
+Parsing VHDL file "/home/ise/CPU_Design/CPU_main.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 98416 KB
+Fuse CPU Usage: 1170 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling architecture behavioral of entity memory [\memory(5,8)\]
+Compiling architecture behavioral of entity counter [counter_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Multiplexor [multiplexor_default]
+Compiling architecture behavioral of entity regester [regester_default]
+Compiling architecture behavioral of entity DATA_DRIVER [data_driver_default]
+Compiling architecture behavioral of entity main_system
+Time Resolution for simulation is 1ps.
+Compiled 20 VHDL Units
+Built simulation executable /home/ise/CPU_Design/main_system_isim_beh.exe
+Fuse Memory Usage: 117352 KB
+Fuse CPU Usage: 1450 ms
+GCC CPU Usage: 5750 ms

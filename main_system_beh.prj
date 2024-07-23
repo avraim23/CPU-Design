@@ -1,0 +1,8 @@
+vhdl work "register.vhd"
+vhdl work "mux.vhd"
+vhdl work "memory.vhd"
+vhdl work "driver.vhd"
+vhdl work "counter.vhd"
+vhdl work "controller.vhd"
+vhdl work "alu.vhd"
+vhdl work "CPU_main.vhd"
